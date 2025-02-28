@@ -28,12 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormEx3";
+            lblNum1 = new Label();
+            lblNum2 = new Label();
+            txtNum1 = new TextBox();
+            txtNum2 = new TextBox();
+            btnMaior = new Button();
+            SuspendLayout();
+            // 
+            // lblNum1
+            // 
+            lblNum1.AutoSize = true;
+            lblNum1.Location = new Point(127, 54);
+            lblNum1.Name = "lblNum1";
+            lblNum1.Size = new Size(57, 15);
+            lblNum1.TabIndex = 0;
+            lblNum1.Text = "Numero1";
+            // 
+            // lblNum2
+            // 
+            lblNum2.AutoSize = true;
+            lblNum2.Location = new Point(177, 107);
+            lblNum2.Name = "lblNum2";
+            lblNum2.Size = new Size(60, 15);
+            lblNum2.TabIndex = 1;
+            lblNum2.Text = "Numero 2";
+            // 
+            // txtNum1
+            // 
+            txtNum1.Location = new Point(210, 51);
+            txtNum1.Name = "txtNum1";
+            txtNum1.Size = new Size(100, 23);
+            txtNum1.TabIndex = 2;
+            // 
+            // txtNum2
+            // 
+            txtNum2.Location = new Point(242, 99);
+            txtNum2.Name = "txtNum2";
+            txtNum2.Size = new Size(100, 23);
+            txtNum2.TabIndex = 3;
+            // 
+            // btnMaior
+            // 
+            btnMaior.Location = new Point(288, 156);
+            btnMaior.Name = "btnMaior";
+            btnMaior.Size = new Size(75, 23);
+            btnMaior.TabIndex = 4;
+            btnMaior.Text = "Mostrar Maior";
+            btnMaior.UseVisualStyleBackColor = true;
+            btnMaior.Click += btnMaior_Click;
+            // 
+            // FormEx3
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnMaior);
+            Controls.Add(txtNum2);
+            Controls.Add(txtNum1);
+            Controls.Add(lblNum2);
+            Controls.Add(lblNum1);
+            Name = "FormEx3";
+            Text = "FormEx3";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblNum1;
+        private Label lblNum2;
+        private TextBox txtNum1;
+        private TextBox txtNum2;
+        private Button btnMaior;
     }
 }
