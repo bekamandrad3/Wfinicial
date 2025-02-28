@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wfinicial", "Wfinicial\Wfin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleRevisaoAula", "ConsoleRevisaoAula\ConsoleRevisaoAula.csproj", "{FA284C11-9A71-4038-B10D-849F6B7676E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEx2", "CEx2\CEx2.csproj", "{C29CE917-F4D6-42CF-BB35-495E8B21E7C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEx2", "CEx2\CEx2.csproj", "{C29CE917-F4D6-42CF-BB35-495E8B21E7C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEx3", "CEx3\CEx3.csproj", "{5664330F-A1B4-433A-85C3-EB3879602D04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CEx3", "CEx3\CEx3.csproj", "{5664330F-A1B4-433A-85C3-EB3879602D04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEx4", "CEx4\CEx4.csproj", "{F17BDDAA-713C-49C0-96CF-070D68E60E6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5664330F-A1B4-433A-85C3-EB3879602D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5664330F-A1B4-433A-85C3-EB3879602D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5664330F-A1B4-433A-85C3-EB3879602D04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17BDDAA-713C-49C0-96CF-070D68E60E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17BDDAA-713C-49C0-96CF-070D68E60E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17BDDAA-713C-49C0-96CF-070D68E60E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17BDDAA-713C-49C0-96CF-070D68E60E6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
