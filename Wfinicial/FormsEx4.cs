@@ -28,7 +28,7 @@ namespace Wfinicial
 
             string mensagem = $"O Número {maior} é o maior número!";
 
-            MessageBox.Show(mwnsagem, "Info," +
+            MessageBox.Show(mensagem, "Info",
                 MessageBoxButtons.OK, MessageBoxIcon.Information );
 
         }
