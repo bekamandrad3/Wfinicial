@@ -1,6 +1,6 @@
 ﻿namespace Wfinicial
 {
-    partial class FormsEx5
+    partial class FormEx5
     {
         /// <summary>
         /// Required designer variable.

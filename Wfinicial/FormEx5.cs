@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Wfinicial
 {
-    public partial class FormsEx4 : Form
+    public partial class FormEx5 : Form
     {
-        public FormsEx4()
+        public FormEx5()
         {
             InitializeComponent();
         }
@@ -26,11 +26,14 @@ namespace Wfinicial
             int maior = Math.Max(num1, num2);
             maior = Math.Max(num3, maior);
 
+            int menor = Math.Min(num1, num2);
+            menor = Math.Min(num3, menor);
+
             string mensagem = $"O Número {maior} é o maior número!";
+            mensagem += $"\n O Número {menor} é o menor número!";
 
             MessageBox.Show(mensagem, "Info",
-                MessageBoxButtons.OK, MessageBoxIcon.Information );
-
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
