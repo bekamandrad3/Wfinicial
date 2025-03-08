@@ -63,5 +63,11 @@ namespace Wfinicial
         {
 
         }
+
+        private void btnEx8_Click(object sender, EventArgs e)
+        {
+            FormEx8 form = new FormEx8();
+            form.ShowDialog();
+        }
     }
 }

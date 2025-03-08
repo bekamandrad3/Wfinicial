@@ -35,7 +35,7 @@
             btnex5 = new Button();
             btnex6 = new Button();
             btnex7 = new Button();
-            btnex8 = new Button();
+            btnEx8 = new Button();
             btnex9 = new Button();
             btnex10 = new Button();
             Exercicio11 = new Button();
@@ -112,14 +112,15 @@
             btnex7.UseVisualStyleBackColor = true;
             btnex7.Click += btnex7_Click;
             // 
-            // btnex8
+            // btnEx8
             // 
-            btnex8.Location = new Point(112, 118);
-            btnex8.Name = "btnex8";
-            btnex8.Size = new Size(75, 23);
-            btnex8.TabIndex = 9;
-            btnex8.Text = "Exercicio8";
-            btnex8.UseVisualStyleBackColor = true;
+            btnEx8.Location = new Point(112, 118);
+            btnEx8.Name = "btnEx8";
+            btnEx8.Size = new Size(75, 23);
+            btnEx8.TabIndex = 9;
+            btnEx8.Text = "Exercicio8";
+            btnEx8.UseVisualStyleBackColor = true;
+            btnEx8.Click += btnEx8_Click;
             // 
             // btnex9
             // 
@@ -166,7 +167,7 @@
             Controls.Add(Exercicio11);
             Controls.Add(btnex10);
             Controls.Add(btnex9);
-            Controls.Add(btnex8);
+            Controls.Add(btnEx8);
             Controls.Add(btnex7);
             Controls.Add(btnex6);
             Controls.Add(btnex5);
@@ -189,7 +190,7 @@
         private Button btnex5;
         private Button btnex6;
         private Button btnex7;
-        private Button btnex8;
+        private Button btnEx8;
         private Button btnex9;
         private Button btnex10;
         private Button Exercicio11;
